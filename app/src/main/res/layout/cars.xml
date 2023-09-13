@@ -23,17 +23,5 @@
         android:hint="Search..."
         android:paddingBottom="10dp" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="135dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="143dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="133dp"
-        android:layout_marginBottom="694dp"
-        android:text="Search Your Car" />
+
 </RelativeLayout>
