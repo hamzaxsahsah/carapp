@@ -50,7 +50,10 @@ public class CustomAdapter extends ArrayAdapter<Car> {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(CustomAdapter.this.getContext(),cardetails.class);
+                intent.putExtra("Car name" ,currentItem.getName() );
+                intent.putExtra("Car logo" ,currentItem.getImage().getOriginal() );
                 context.startActivity(intent);
+
             }
         });
         return listItemView;
