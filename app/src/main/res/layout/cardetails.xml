@@ -11,44 +11,45 @@
 
     <LinearLayout
 
-        android:layout_width="238dp"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="10dp"
+        android:layout_width="382dp"
+        android:layout_height="423dp"
         android:layout_marginLeft="5dp"
-        android:textDirection="rtl"
+        android:layout_marginRight="10dp"
         android:layoutDirection="rtl"
+        android:orientation="vertical"
 
-        android:orientation="vertical" >
+        android:textDirection="rtl">
+
         <ImageView
             android:id="@+id/carImageView"
             android:layout_width="210dp"
             android:layout_height="135dp"
-            android:src="@mipmap/ic_launcher"
-
+            android:adjustViewBounds="true"
             android:scaleType="centerInside"
-            android:adjustViewBounds="true"        />
+            android:src="@mipmap/ic_launcher" />
+
         <TextView
 
             android:id="@+id/carNameTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Title"
             android:layout_gravity="right"
-            android:textDirection="rtl"
-            android:textAppearance="?android:attr/textAppearanceMedium"
             android:fontFamily="sans-serif"
-            android:textSize="30sp"
+            android:text="Title"
             android:textAlignment="textEnd"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textDirection="rtl"
             android:textFontWeight="@integer/material_motion_duration_long_2"
+            android:textSize="30sp"
             tools:ignore="RtlCompat" />
 
         <Button
-            android:layout_marginTop="200dp"
             android:id="@+id/button_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Connect"
-            android:layout_centerInParent="true" /> <!-- Center the button in the parent -->
+            android:layout_centerInParent="true"
+            android:layout_marginTop="200dp"
+            android:text="Connect" /> <!-- Center the button in the parent -->
 
     </LinearLayout>
 
